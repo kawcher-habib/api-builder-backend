@@ -3,9 +3,9 @@ const app = express();
 
 const port = 3000;
 
-const api = require('./routes/api');
+const apiRoutes = require('./routes/api');
 
-app.use(api);
+app.use('/api', apiRoutes);
 
 
 app.listen(port, ()=>{
