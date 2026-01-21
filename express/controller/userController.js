@@ -6,7 +6,7 @@ class Users{
     }
 
     index(req, res){
-        console.log(`Hello${this.name}`);
+        res.sand("Hello");
     }
 
 
